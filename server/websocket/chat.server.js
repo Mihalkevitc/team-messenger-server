@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 module.exports = (httpServer) => {
   const io = new Server(httpServer, {
     cors: {
-      origin: process.env.CLIENT_URL,
+      origin: 'https://team-messenger-client.onrender.com',
       methods: ["GET", "POST"]
     }
   });
