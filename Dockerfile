@@ -17,4 +17,4 @@ COPY server .
 EXPOSE 5000
 
 # Стартуем приложение
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
